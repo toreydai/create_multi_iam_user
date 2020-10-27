@@ -57,7 +57,7 @@ iam.attach_group_policy(
 iam.attach_group_policy(
     GroupName='Workshop_Group',
     PolicyArn=(
-        'arn:aws-cn:iam::aws:policy/AmazonKinesisFullAccess'
+        'arn:aws-cn:iam::aws:policy/AmazonAPIGatewayAdministrator'
     )
 )
 
