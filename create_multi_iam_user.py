@@ -76,7 +76,6 @@ iam.attach_group_policy(
 )
 
 a = 'user0'
-b = ''
 for i in range(1,10):
   name = a + str(i)
   iam.create_user(UserName=name)
@@ -93,7 +92,6 @@ for i in range(1,10):
   )
 
 c = 'user'
-d = ''
 for i in range(10,41):
   name = c + str(i)
   iam.create_user(UserName=name)
