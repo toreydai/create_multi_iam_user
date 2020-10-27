@@ -92,7 +92,7 @@ for i in range(1,10):
   )
 
 c = 'user'
-for i in range(10,41):
+for i in range(10,51):
   name = c + str(i)
   iam.create_user(UserName=name)
   
