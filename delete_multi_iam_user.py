@@ -13,10 +13,6 @@ for i in range(10,51):
   name = a + str(i)
   iam.delete_user(UserName=name)
 
-iam.delete_role(
-    RoleName='Lambda_Role_Workshop'
-)
-
 iam.delete_group(
     GroupName='Workshop_Group'
 )
